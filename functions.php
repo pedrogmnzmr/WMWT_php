@@ -48,7 +48,7 @@ function getRandomMovies(): array {
     $imdbIds = [];
     
     if (($handle = fopen($csvFile, 'r')) !== false) {
-        fgetcsv($handle, 1000, ',');
+        fgetcsv($handle, 1000, ",", '"', "\\");
         while (($data = fgetcsv($handle, 1000, ',')) !== false) {
             $movieId = $data[0];
             $formattedId = sprintf("%07d", (int)$movieId);

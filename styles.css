@@ -1,0 +1,9 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font: 1em sans-serif;
+}
