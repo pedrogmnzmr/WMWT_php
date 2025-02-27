@@ -17,7 +17,7 @@ $movies = getRandomMovies();
     <div class="row justify-content-center">
       <?php if (!empty($movies)): ?>
         <?php foreach ($movies as $movie): ?>
-          <div class="col-md-5 mb-4">
+          <div class="col-md-3 mb-4">
             <div class="card h-100 shadow-sm">
               <img 
                 src="<?= $movie->poster ?>" 
