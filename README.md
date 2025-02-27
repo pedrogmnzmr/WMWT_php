@@ -1,0 +1,2 @@
+# php_con_clases_y_funciones
+"What Movie I'm Wathching Today" Aplicación web que te ayuda a elegir aleatoriamente entre dos opciones de título cinematográfico para ver hoy. Hecha en PHP con acceso a API y maquetación Bootstrap.
